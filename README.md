@@ -1,6 +1,6 @@
 # SISFOMARU (Sistem Penerimaan Mahasiswa Baru) STMIK Syaikh Zainuddin NW Anjani
 
-## What is CodeIgniter?
+## Aplikasi Apa ini?
 
 Merupakan Aplikasi yang sedang dikembangkan oleh Muhammad Azmi dalam rangka mempermudah proses pendaftaran Mahasiswa Baru di STMIK Syaikh Zainuddin NW Anjani.
 Sistem ini dibangun menggunakan ## PHP Framework Codeigniter 4.
