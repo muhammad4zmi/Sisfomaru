@@ -1,5 +1,34 @@
 <?= $this->extend('templates/auth_header'); ?>
 <?= $this->section('content'); ?>
+<?php
+$db = \Config\Database::connect();
+date_default_timezone_set("Asia/Jakarta");
+$date = date("Y-m-d");
+$tgl_daftar = date('d-m-Y', strtotime($date));
+// cari id transaksi terakhir yang berawalan tanggal hari ini
+$query = $db->query("SELECT max(no_pendaftaran) AS last FROM pendaftar");
+$data = $query->getRowArray();
+// dd($data);
+// die;
+//$noOrder = $data['maxKode'];
+
+$nomorreg = $data['last'];
+
+// baca nomor urut transaksi dari id transaksi terakhir
+$noUrut = (int) substr($nomorreg, 9, 3);
+$noUrut++;
+
+$tahun = substr($date, 0, 4);
+$bulan = substr($date, 5, 2);
+$tgl1 = substr($date, 8, 2);
+// nomor urut ditambah 1
+//$nextNoUrut = $lastNoUrut + 1;
+
+// membuat format nomor transaksi berikutnya
+$id_Order = $tahun . $bulan . $tgl1 . sprintf("%04s", $noUrut);
+
+
+?>
 <div class="container">
     <!-- Outer Row -->
     <div class="row justify-content-center">
@@ -22,6 +51,7 @@
                                 <form class="user" action="/auth/proses_register" method="POST">
                                     <?= csrf_field(); ?>
                                     <div class="form-group">
+                                        <input type="hidden" name="no_daftar" value="<?= $id_Order; ?>">
                                         <label for="nama" style="font-size: 12px">Nama Lengkap</label>
                                         <input type="text" class="form-control <?= ($validation->hasError('nama')) ? 'is-invalid' : ''; ?>" id="judul" name="nama" autofocus value="<?= old('nama'); ?>" style="font-size: 12px;" placeholder="Masukkan Nama Lengkap">
                                         <div class="invalid-feedback">

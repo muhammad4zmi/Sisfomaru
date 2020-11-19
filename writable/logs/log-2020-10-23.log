@@ -1,0 +1,11 @@
+CRITICAL - 2020-10-23 04:02:54 --> Unknown column 'data_ortu' in 'field list'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('UPDATE pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Identitas.php(328): CodeIgniter\Database\BaseConnection->query('UPDATE pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->add_ortu()
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}

@@ -26,7 +26,7 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="/auth" class="get-started-btn scrollto">Daftar Sekarang!</a>
+      <a href="/auth/registration" class="get-started-btn scrollto">Daftar Sekarang!</a>
 
     </div>
   </header><!-- End Header -->

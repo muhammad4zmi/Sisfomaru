@@ -71,7 +71,7 @@ class Auth extends BaseController
                         if ($user['role_id'] == 1) {
                             return redirect()->to('/admin/dasboard');
                         } else {
-                            return redirect()->to('/camaba/dasboard');
+                            return redirect()->to('/user/dasboard');
                         }
                     } else {
                         session()->setFlashdata('pesan', '<div class="alert alert-danger" role="alert">Password salah!</div>');
@@ -157,6 +157,7 @@ class Auth extends BaseController
         // dd($id_user);
         //die;
         $this->pendaftarModel->save([
+            'no_pendaftaran' => $this->request->getVar('no_daftar'),
             'nama' => htmlspecialchars($this->request->getVar('nama')),
             'email' => htmlspecialchars($this->request->getVar('email')),
             'status_datadiri' => 0,
@@ -180,6 +181,6 @@ class Auth extends BaseController
 
     public function blocked()
     {
-        echo "Access Blocked!";
+        return view('auth/blocked');
     }
 }

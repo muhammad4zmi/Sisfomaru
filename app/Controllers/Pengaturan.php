@@ -20,7 +20,7 @@ class Pengaturan extends BaseController
         $db = \Config\Database::connect();
         $query = $db->table('users');
         $data = [
-            'title' => 'Sisfomaru | Pengaturan PMB',
+            'title' => 'Pengaturan PMB',
             'pengaturan' => $this->pengaturanModel->getPengaturan(),
             'user' => $query->getWhere(['email' => session('email')])->getRowArray(),
             'validation' => \Config\Services::validation()

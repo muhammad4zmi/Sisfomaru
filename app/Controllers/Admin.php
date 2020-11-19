@@ -25,7 +25,7 @@ class Admin extends BaseController
         $query = $db->table('users');
 
         $data = [
-            'title' => 'Sisfomaru | Dasboard Admin',
+            'title' => 'Dasboard Admin',
             'pengaturan' => $this->pengaturanModel->getPengaturan(),
             'user' => $query->getWhere(['email' => session('email')])->getRowArray(),
             'pendaftar' => $this->pendaftarModel->getPendaftar()

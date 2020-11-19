@@ -1,0 +1,11 @@
+CRITICAL - 2020-09-15 22:05:15 --> Undefined index: no_pendaftaran
+#0 D:\server\htdocs\Sisfomaru\app\Views\user\dasboard\index.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\server\\htdoc...', 207, Array)
+#1 D:\server\htdocs\Sisfomaru\system\View\View.php(246): include('D:\\server\\htdoc...')
+#2 D:\server\htdocs\Sisfomaru\system\Common.php(1087): CodeIgniter\View\View->render('user/dasboard/i...', Array, true)
+#3 D:\server\htdocs\Sisfomaru\app\Controllers\User.php(36): view('user/dasboard/i...', Array)
+#4 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(914): App\Controllers\User->index()
+#5 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#9 {main}

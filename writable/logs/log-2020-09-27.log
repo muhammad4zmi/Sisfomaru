@@ -1,0 +1,144 @@
+CRITICAL - 2020-09-27 18:35:18 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:35:31 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:35:32 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:36:51 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:37:13 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:37:37 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:37:56 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:38:20 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:38:45 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:38:46 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:38:56 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:39:32 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:41:35 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:41:54 --> Trying to access array offset on value of type null
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\server\\htdoc...', 38, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('admin/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:51:26 --> Object of class stdClass could not be converted to int
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'D:\\server\\htdoc...', 42, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('user/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:51:27 --> Object of class stdClass could not be converted to int
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'D:\\server\\htdoc...', 42, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('user/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:51:32 --> Object of class stdClass could not be converted to int
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'D:\\server\\htdoc...', 42, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('user/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}
+CRITICAL - 2020-09-27 18:51:47 --> Object of class stdClass could not be converted to int
+#0 D:\server\htdocs\Sisfomaru\app\Filters\LoginFilter.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'D:\\server\\htdoc...', 42, Array)
+#1 D:\server\htdocs\Sisfomaru\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('user/dasboard', 'before')
+#3 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#6 {main}

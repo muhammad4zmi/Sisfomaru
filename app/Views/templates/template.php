@@ -35,6 +35,8 @@
     <!-- css datepicker -->
     <link href="<?= base_url(); ?>/admin/assets/vendor/datepicker/css/bootstrap-datepicker.css" rel="stylesheet">
     <link href="<?= base_url(); ?>/admin/assets/vendor/datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
 
 
 </head>
@@ -75,12 +77,13 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 12px;">Apakah Anda ingin logout?
-                        </h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
                         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+
                     <!-- <div class="modal-body">Apakah Anda keluar dari aplikasi?</div> -->
                     <div class="modal-footer">
                         <button class="btn btn-sm btn-secondary" type="button" data-dismiss="modal">
@@ -144,6 +147,85 @@
                     console.error(error);
                 });
         </script>
+        <script>
+            $(document).ready(function() {
+
+                $("#seri").hide();
+                // $("#ketTotal").hide();
+                $("#kps").change(function() {
+                    // var tgl1 = $("#tgl1").val();
+                    // var jmlPembayaran = $("#jmlPembayaran").val();
+                    var kps = $("#kps").val();
+                    if (kps == "Ya") {
+                        $("#seri").show(0);
+                    } else {
+                        $("#seri").hide(0);
+
+                    }
+                });
+            });
+            // $("#ketTotal").show(0);
+            // $("#jmlBayar").val(jmlPembayaran);
+            // $("#jmlDenda").val(0);
+        </script>
+        <script>
+            $(document).ready(function() {
+                $("#pekerjaan_ibu").select2({
+                    placeholder: "Please Select"
+                });
+                $("#kota2").select2({
+                    placeholder: "Please Select"
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#tgl_lahir').datepicker({
+                    //merubah format tanggal datepicker ke dd-mm-yyyy
+                    format: "yyyy-mm-dd",
+                    //aktifkan kode dibawah untuk melihat perbedaanya, disable baris perintah diatasa
+                    //format: "dd-mm-yyyy",
+                    autoclose: true
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+            function validasiFile() {
+                var fileInput = document.getElementById('foto');
+                var filePath = fileInput.value;
+                var fileSize = $('#foto')[0].files[0].size;
+                // tentukan extension yang diperbolehkan
+                var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
+                // Jika tipe file yang diupload tidak sesuai dengan allowedExtensions, tampilkan pesan :
+                if (!allowedExtensions.exec(filePath)) {
+                    alert('Tipe file foto tidak sesuai. Harap unggah file foto yang memiliki tipe *.jpg atau *.png');
+                    fileInput.value = '';
+                    document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/default.png"/>';
+                    return false;
+                }
+                // jika ukuran file yang diupload lebih dari sama dengan 1 Mb
+                else if (fileSize >= 1000000) {
+                    alert('Ukuran file foto lebih dari 1 Mb. Harap unggah file foto yang memiliki ukuran maksimal 1 Mb.');
+                    fileInput.value = '';
+                    document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/default.png"/>';
+                    return false;
+                }
+                // selain itu
+                else {
+                    // Image preview
+                    if (fileInput.files && fileInput.files[0]) {
+                        var reader = new FileReader();
+                        reader.onload = function(e) {
+                            document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="' + e.target.result + '"/>';
+                        };
+                        reader.readAsDataURL(fileInput.files[0]);
+                    }
+                }
+            }
+        </script>
+
+
 
 </body>
 

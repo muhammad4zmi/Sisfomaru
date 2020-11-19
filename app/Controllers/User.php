@@ -27,23 +27,26 @@ class User extends BaseController
 
 
         $data = [
-            'title' => 'Sisfomaru | Dasboard Camaba',
+            'title' => 'Sisfomaru | Dasboard User',
             'pengaturan' => $this->pengaturanModel->getPengaturan(),
             'informasi' => $this->informasiModel->getInformasi(),
-            'user' => $this->db->table('users')->getWhere(['email' => session('email')])->getRowArray()
+            'user' => $this->db->table('users')->getWhere(['email' => session('email')])->getRowArray(),
+            'pendaftar' => $this->pendaftarModel->getPendaftar()
         ];
-        return view('camaba/dasboard/index', $data);
+        return view('user/dasboard/index', $data);
     }
 
-    public function data_diri()
+    public function upload()
     {
+
+
         $data = [
-            'title' => 'Sisfomaru | Data Diri',
+            'title' => 'Sisfomaru | Upload Berkas',
             'pengaturan' => $this->pengaturanModel->getPengaturan(),
             'informasi' => $this->informasiModel->getInformasi(),
-            'user' => $this->db->table('users')->getWhere(['email' => session('email')])->getRowArray()
-            // 'pendaftar' = $this->db->table('pendaftar')->getWhere('')
+            'user' => $this->db->table('users')->getWhere(['email' => session('email')])->getRowArray(),
+            'pendaftar' => $this->pendaftarModel->getPendaftar()
         ];
-        return view('camaba/identitas/index', $data);
+        return view('user/upload/index', $data);
     }
 }

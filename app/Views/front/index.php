@@ -747,7 +747,10 @@
           <h4>Link Terkait</h4>
           <ul>
             <li><i class="bx bx-chevron-right"></i> <b><a href="#">www.stmiksznw.ac.id</a></b></li>
+            <li><i class="bx bx-chevron-right"></i> <b><a href="#">www.siakad.stmiksznw.ac.id</a></b></li>
+            <li><i class="bx bx-chevron-right"></i> <b><a href="#">www.lms.stmiksznw.ac.id</a></b></li>
             <li><i class="bx bx-chevron-right"></i> <b><a href="#">Jurnal Teknimedia</a></b></li>
+            <li><i class="bx bx-chevron-right"></i> <b><a href="#">www.cbt.stmiksznw.ac.id</a></b></li>
             <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->

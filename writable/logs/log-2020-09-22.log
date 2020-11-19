@@ -1,0 +1,22 @@
+CRITICAL - 2020-09-22 17:38:22 --> Undefined variable: validation
+#0 D:\server\htdocs\Sisfomaru\app\Views\user\upload\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\server\\htdoc...', 92, Array)
+#1 D:\server\htdocs\Sisfomaru\system\View\View.php(246): include('D:\\server\\htdoc...')
+#2 D:\server\htdocs\Sisfomaru\system\Common.php(1087): CodeIgniter\View\View->render('user/upload/ind...', Array, true)
+#3 D:\server\htdocs\Sisfomaru\app\Controllers\User.php(50): view('user/upload/ind...', Array)
+#4 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(914): App\Controllers\User->upload()
+#5 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#9 {main}
+CRITICAL - 2020-09-22 18:04:07 --> Undefined index: no_pendaftaran
+#0 D:\server\htdocs\Sisfomaru\app\Views\user\upload\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\server\\htdoc...', 92, Array)
+#1 D:\server\htdocs\Sisfomaru\system\View\View.php(246): include('D:\\server\\htdoc...')
+#2 D:\server\htdocs\Sisfomaru\system\Common.php(1087): CodeIgniter\View\View->render('user/upload/ind...', Array, true)
+#3 D:\server\htdocs\Sisfomaru\app\Controllers\User.php(50): view('user/upload/ind...', Array)
+#4 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(914): App\Controllers\User->upload()
+#5 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\server\htdocs\Sisfomaru\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\server\htdocs\Sisfomaru\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\server\htdocs\Sisfomaru\system\Commands\Server\rewrite.php(34): require_once('D:\\server\\htdoc...')
+#9 {main}

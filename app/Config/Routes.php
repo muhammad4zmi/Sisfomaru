@@ -32,18 +32,25 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
-$routes->get('/admin/dasboard', 'Admin::index');
-$routes->get('/camaba/dasboard', 'User::index');
-$routes->get('/camaba/identitas', 'User::data_diri');
-$routes->get('/admin/pengaturan/', 'Pengaturan::index');
-$routes->get('/admin/informasi/create', 'Informasi::create');
-$routes->get('/admin/informasi/', 'Informasi::index');
-$routes->get('/admin/menu/', 'Menu::index');
-$routes->delete('/admin/menu/(:num)', 'Menu::delete/$1');
-$routes->get('/admin/menu/submenu', 'Menu::submenu');
-$routes->delete('/admin/menu/submenu/(:num)', 'Menu::delete_submenu/$1');
-$routes->delete('/admin/informasi/(:num)', 'Informasi::delete/$1');
-$routes->get('/admin/informasi/edit/(:segment)', 'Informasi::edit/$1');
+$routes->get('/admin/dasboard', 'Admin::index', ['filter' => 'user']);
+$routes->get('/admin/pendaftar', 'Pendaftar::index', ['filter' => 'user']);
+$routes->get('/admin/pendaftar/detailpendaftar/(:segment)', 'Pendaftar::detailpendaftar/$1', ['filter' => 'user']);
+$routes->get('/user/dasboard', 'User::index', ['filter' => 'user']);
+$routes->get('/user/identitas', 'Identitas::index', ['filter' => 'user']);
+$routes->get('/user/identitas/edit/(:segment)', 'Identitas::edit/$1', ['filter' => 'user']);
+
+$routes->get('/user/identitas/ortu', 'Identitas::ortu', ['filter' => 'user']);
+$routes->get('/user/identitas/edit_ortu/(:segment)', 'Identitas::edit_ortu/$1', ['filter' => 'user']);
+$routes->get('/user/upload', 'User::upload', ['filter' => 'user']);
+$routes->get('/admin/pengaturan/', 'Pengaturan::index', ['filter' => 'user']);
+$routes->get('/admin/informasi/create', 'Informasi::create', ['filter' => 'user']);
+$routes->get('/admin/informasi/', 'Informasi::index', ['filter' => 'user']);
+$routes->get('/admin/menu/', 'Menu::index', ['filter' => 'user']);
+$routes->delete('/admin/menu/(:num)', 'Menu::delete/$1', ['filter' => 'user']);
+$routes->get('/admin/menu/submenu', 'Menu::submenu', ['filter' => 'user']);
+$routes->delete('/admin/menu/submenu/(:num)', 'Menu::delete_submenu/$1', ['filter' => 'user']);
+$routes->delete('/admin/informasi/(:num)', 'Informasi::delete/$1', ['filter' => 'user']);
+$routes->get('/admin/informasi/edit/(:segment)', 'Informasi::edit/$1', ['filter' => 'user']);
 
 /**
  * --------------------------------------------------------------------

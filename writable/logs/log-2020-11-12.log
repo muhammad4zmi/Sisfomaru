@@ -1,0 +1,243 @@
+CRITICAL - 2020-11-12 02:24:23 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:24:23 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:26:41 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:26:41 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:29:00 --> Undefined index: telepon_ibu
+#0 /Applications/MAMP/htdocs/Sisfomaru/app/Views/admin/pendaftar/detail.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 193, Array)
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Common.php(1087): CodeIgniter\View\View->render('admin/pendaftar...', Array, true)
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(39): view('admin/pendaftar...', Array)
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('12')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-11-12 02:29:02 --> Undefined index: telepon_ibu
+#0 /Applications/MAMP/htdocs/Sisfomaru/app/Views/admin/pendaftar/detail.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 193, Array)
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Common.php(1087): CodeIgniter\View\View->render('admin/pendaftar...', Array, true)
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(39): view('admin/pendaftar...', Array)
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('12')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2020-11-12 02:30:43 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:30:43 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:31:25 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:31:25 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:32:40 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:32:41 --> Unknown column 'assets' in 'where clause'
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT pendafta...')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT pendafta...')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT pendafta...')
+#3 /Applications/MAMP/htdocs/Sisfomaru/app/Models/PendaftarModel.php(47): CodeIgniter\Database\BaseConnection->query('SELECT pendafta...')
+#4 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Pendaftar.php(34): App\Models\PendaftarModel->getDetail('assets')
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Pendaftar->detail('assets', 'js', 'style', 'js', 'plugins', 'pace.min.js')
+#6 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#7 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2020-11-12 02:46:05 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Identitas.php(357): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 357, Array)
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#3 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2020-11-12 02:48:33 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Identitas.php(357): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 357, Array)
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#3 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2020-11-12 03:20:59 --> Call to a member function getWhere() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:21:10 --> Call to a member function Where() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:21:37 --> Call to a member function Where() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:23:22 --> Call to a member function Where() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:29:36 --> Call to a member function WHERE() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('13')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:30:01 --> Call to a member function WHERE() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('13')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:30:33 --> Call to a member function WHERE() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('13')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 03:36:29 --> Call to a member function where() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 04:00:24 --> Call to a member function getwhere() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 04:00:38 --> Call to a member function getwhere() on bool
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}
+CRITICAL - 2020-11-12 04:01:40 --> Trying to get property 'db' of non-object
+#0 /Applications/MAMP/htdocs/Sisfomaru/app/Controllers/Identitas.php(395): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Applications/M...', 395, Array)
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#3 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2020-11-12 04:02:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getwhere()
+#0 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(914): App\Controllers\Identitas->update_ortu('12')
+#1 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Identitas))
+#2 /Applications/MAMP/htdocs/Sisfomaru/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /Applications/MAMP/htdocs/Sisfomaru/system/Commands/Server/rewrite.php(34): require_once('/Applications/M...')
+#5 {main}

@@ -20,7 +20,8 @@ class LoginFilter implements FilterInterface
             $role_id = session()->get('role_id');
 
             $menu = $request->uri->getSegment(1);
-
+            // dd($menu);
+            // die;
 
             $queryMenu = $db->query("SELECT * FROM user_menu WHERE menu= '$menu'");
             $hasil = $queryMenu->getRowArray();
@@ -33,11 +34,12 @@ class LoginFilter implements FilterInterface
             $userAccess = $db->query("SELECT * FROM user_access_menu 
                                               WHERE role_id = $role_id 
                                               AND menu_id = $menu_id");
-            $access = $userAccess->getRowArray();
-            // dd($access);
+            //$access = $userAccess->getRowArray();
+            // $role = $access['role_id'];
+            // dd($role);
             // die;
 
-            if ($access == null) {
+            if ($userAccess->getRowArray() < 1) {
                 return redirect()->to('/auth/blocked');
             }
         }

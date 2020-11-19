@@ -1,0 +1,11 @@
+CRITICAL - 2020-10-14 03:46:32 --> preg_match_all(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all(...', '/Applications/X...', 116, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/system/Debug/Toolbar/Collectors/History.php(116): preg_match_all('/\\d+/', '/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1602665191, 20)
+#3 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/system/CodeIgniter.php(289): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Sisfomaru/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

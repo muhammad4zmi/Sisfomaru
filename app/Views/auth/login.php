@@ -47,14 +47,17 @@
                                 </form>
 
                                 <div class="text-center mt-2 mb-2">
-                                    <a class="" style="font-size: 12px;"> Belum punya akun?
-                                        <a class="text-success" style="font-size: 14px;" href="/auth/registration"> <span class="badge badge-primary">Registrasi Disini!</span></a>
+                                    <a class="h4 text-gray-900" style="font-size: 12px;"> Belum punya akun?
+                                        <a class="text-success" style="font-size: 16px;" href="/auth/registration"> <span class="badge badge-primary">Registrasi Disini!</span></a>
                                     </a>
                                 </div>
                                 <div style="margin:5px auto; text-align:center">
-                                    <a class="btn btn-sm btn-warning" href="https://bit.ly/Mekanisme-Pendaftaran-PPDB-MANUSGI-2020" target="spmb">
+                                    <!-- <a class="btn btn-sm btn-warning" href="https://bit.ly/Mekanisme-Pendaftaran-PPDB-MANUSGI-2020" target="spmb">
                                         <i class="fas fa-book-open"></i>
-                                        Lihat Mekanisme Pendaftaran</a>
+                                        Lihat Mekanisme Pendaftaran</a> -->
+                                    <a class="btn btn-xsm btn-warning m-1" href="/">
+                                        <i class="fas fa-arrow-left"></i>
+                                        Back</a>
                                 </div>
                                 <hr>
                                 <marquee>SELAMAT DATANG DI WEBSITE PMB ONLINE STMIK Syaikh Zainuddin NW Anjani | TAHUN AKADEMIK 2020/2021</marquee>

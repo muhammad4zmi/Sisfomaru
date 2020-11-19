@@ -25,7 +25,7 @@ class Informasi extends BaseController
 
         //$query = $db->table('users');
         $data = [
-            'title' => 'Sisfomaru | Informasi PMB',
+            'title' => 'Informasi',
             'informasi' => $this->informasiModel->getInformasi(),
             'pengaturan' => $this->pengaturanModel->getPengaturan(),
             'user' => $this->db->table('users')->getWhere(['email' => session('email')])->getRowArray()
